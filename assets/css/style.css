@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    
+}
+/**/
+
+header{
+    border-color: #cccccc;
+    background-color: #ffffff;
+    width: 960px;
+
+}
+h1{    
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+}
+
+#navBar li{
+    widows: 400px;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0px;
+
+}
+
+
+#navBar a{
+    float: right;
+    display: inline;
+    width: 75px;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+
+#bioPic{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+
+#popsPizzaPop, #chickenCollator, #cowgirlCrowbar, #dontWantCorndog, #learnSoFast{
+    height: 200px;
+    width: 200px;
+    
+}
+footer{
+
+}
