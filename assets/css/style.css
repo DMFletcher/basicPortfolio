@@ -3,39 +3,98 @@
     
 }
 /**/
+body{
+    width: 960px;
+    margin: 5%;
+    align-content: center;
+
+}
 
 header{
     border-color: #cccccc;
     background-color: #ffffff;
+    margin: 20px;
     width: 960px;
 
 }
+h1{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    width: 660px;
+
+}
+.navBar{
+    float: left;
+    width: 300px;
+    height: 100px;
+
+}
+.navBar a{   
+    width: 100px;
+    float: left;
+    background-color: #dddddd;
+
+}
+content{
+    margin: 20px;
+    clear: both;
+    padding: 10px;
+    width: 960px;
+    border: 5px solid red;
+    align-content: center
+}
+.mainContent{
+    float: left;
+    width: 650px;
+    height: 900px;
+    background-color: orange;
+    padding: 30px;
+}
+.mainContent img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+.mainContent input{
+    width: 100%;
+}
+
+.sidebar{
+    float: left;
+    width: 270px;
+    background-color: aqua;
+    padding-left: 20px;
+}
+footer{
+    clear: both;
+}
+/*
 h1{    
-    display: block;
+    float: left;
     font-family: 'Times New Roman', Times, serif;
     width: 400px;
 }
 
-#navBar li{
+.navBar li{
     widows: 400px;
     list-style-type: none;
     margin-left: 20px;
-    padding: 0px;
+    padding: 20px;
 
 }
 
 
-#navBar a{
+.navBar a{
     float: right;
     display: inline;
-    width: 75px;
-    padding: 8px;
-    background-color: #dddddd;
+    width: 80px;
+    padding: 0;
 }
 
 
 #bioPic{
-    float: left;
+    clear: both;
     width: 300px;
     height: 200px;
 }
@@ -49,3 +108,4 @@ h1{
 footer{
 
 }
+*/
